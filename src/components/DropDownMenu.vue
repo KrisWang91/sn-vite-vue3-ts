@@ -67,7 +67,7 @@ const option = [
   },
   {
     title: '触达',
-    active: '1',
+    active: '0',
     name: 'marketing',
     tags: [
       { text: '全部', value: '0' },

@@ -1,0 +1,124 @@
+html,
+body {
+  height: 100%;
+}
+#app {
+  font-size: 17pt;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+    Segoe UI, Arial, Roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB',
+    'Microsoft Yahei', sans-serif;
+  color: #333;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a,
+span,
+i,
+b {
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input[type='text'] {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  text-align: center;
+}
+
+button,
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
+  cursor: pointer;
+  outline: 0;
+  font-size: 12px;
+}
+
+textarea,
+input {
+  font-family: '微软雅黑', sans-serif;
+}
+
+input[type='text'],
+input[type='password'] {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  font-family: '微软雅黑', sans-serif;
+  outline: 0;
+}
+
+select {
+  border: 1px solid #dedede;
+  outline: 0;
+  font-size: 12px;
+}
+
+textarea {
+  border: 1px solid #dedede;
+  outline: 0;
+  resize: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+//body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+fieldset,
+button,
+input,
+textarea,
+th,
+td,
+div {
+  /* table elements 表格元素 */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

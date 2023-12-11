@@ -1,0 +1,24 @@
+.container {
+  background-color: #dcdee0;
+  height: 100%;
+}
+.popup-btns {
+  display: flex;
+  justify-content: space-between;
+  .btn {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 25px;
+  }
+  .reset-btn {
+    margin-left: 50px;
+    background-color: #fff;
+    border-color: #129456;
+    color: #129456;
+  }
+  .confirm-btn {
+    margin-right: 50px;
+    border: none;
+    background-color: #129456;
+  }
+}

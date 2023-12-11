@@ -1,0 +1,28 @@
+.van-nav-bar .van-icon,
+.van-nav-bar__text {
+  color: #333;
+  font-size: var(--van-nav-bar-title-font-size);
+}
+.van-nav-bar {
+  height: 38px;
+  line-height: 38px;
+}
+.van-nav-bar .van-icon {
+  font-size: 18px;
+}
+.van-nav-bar__title {
+  font-size: 15px;
+}
+.van-search {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.van-search__field {
+  height: 30px;
+}
+.van-dropdown-menu__title {
+  font-size: var(--van-font-size-md);
+}
+.van-dropdown-menu__bar {
+  height: 36px;
+}
